@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
 /* Estilos globais */
-*{margin: 0px}
+*{
+    margin: 0px;
+}
+
 
 h3{
     font-family: sans-serif;
@@ -73,10 +76,10 @@ a:hover{
 
 
 
-/* Estilo da Primeira secção */
-#secs{
+/* Estilo da Segunda secção */
+#secs{    color: red;
     background-color:var(--color4);
-    height: 100vh;
+   
 }
 
 #Lado1{
@@ -115,6 +118,7 @@ span{
 }
 #tabela{
     margin-top: 35px;
+    height: max-content;
 }
 .Dados{
     display: inline-flex;
@@ -202,5 +206,6 @@ footer{
 #part3{
     margin-top: 10%;
     max-width: max-content;
+    height: 100%;
     text-align: center;
 }
