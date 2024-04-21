@@ -71,6 +71,8 @@ a:hover{
 }
 
 
+
+
 /* Estilo da Primeira secção */
 #secs{
     background-color:var(--color4);
@@ -125,9 +127,27 @@ span{
 
 
 /* Estilo da Terceira secção */
+#sect{
+    background-color: var(--color0);
+    height: 50vh;
+}
+#actividade{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    gap: 85px;
+}
+#actividade >div{
+    height: 25vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+
+
+/* Rodapé */
 footer{
     display: flex;
-    background-color: #181818;
+    background-color:var(--color4);
     color: var(--color1);
     justify-content: center;
     height: 50vh;
