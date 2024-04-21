@@ -140,8 +140,15 @@ span{
 #actividade >div{
     height: 25vh;
     width: 25vw;
+   border: 2px solid #1b1c29c9;
     border-radius: 20px;
 }
+#actividade >div:hover{
+    border: 2px solid var(--color3);
+    transform:scale(110%);
+    transition-duration: 2s;
+}
+
 
 
 /* Rodapé */
