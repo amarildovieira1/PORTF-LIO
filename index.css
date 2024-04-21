@@ -51,9 +51,9 @@ h5{
 }
 
 nav{
-    margin-top: 45px;
-    margin-right: 14rem;
-    float: right;
+    display: flex;
+    padding-top: 45px;
+    justify-content: center;
 }
 
 a{
@@ -81,13 +81,13 @@ a:hover{
 
 #Lado1{
     display: flex;
-    width: 50vw;
+    width: 40vw;
     height: calc(100vh - 10vh);
 }
 
 #Lado2{
     display: flex;
-    width: 50vw;
+    width: 60vw;
     height: calc(100vh - 10vh);
 }
 
@@ -97,14 +97,12 @@ main{
 }
 
 #main1{
-    background-image: url(image/text.png); 
-    width: 55%;
+    width: max-content;
     height: 70%;
   
 }
 
 #main2{
-   /*  background-color: black; */
     color: var(--color1);
     width: 70%;
     height: max-content;
@@ -122,23 +120,25 @@ span{
     display: inline-flex;
     font-weight: bolder;
     width: 130px;
-    height: 50px;
+    height: 35px;
 }
 
 
 /* Estilo da Terceira secção */
 #sect{
     background-color: var(--color0);
-    height: 50vh;
+    max-height: max-content;
+    padding-bottom: 8%
 }
 #actividade{
     display: flex;
     justify-content: center;
     margin-top: 4%;
     gap: 85px;
+    max-height: max-content;
 }
 #actividade >div{
-    height: 25vh;
+    height: max-content;
     width: 25vw;
    border: 2px solid #1b1c29c9;
     border-radius: 20px;
@@ -157,7 +157,7 @@ footer{
     background-color:var(--color4);
     color: var(--color1);
     justify-content: center;
-    height: 50vh;
+    max-height: max-content;
     font-size: x-large;
 }
 
@@ -201,4 +201,6 @@ footer{
 
 #part3{
     margin-top: 10%;
+    max-width: max-content;
+    text-align: center;
 }
