@@ -107,7 +107,7 @@ main{
    /*  background-color: black; */
     color: var(--color1);
     width: 70%;
-    height: 70%;
+    height: max-content;
 }
 h4{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
