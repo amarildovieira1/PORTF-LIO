@@ -5,11 +5,11 @@ function ini() {
 }
 
 function sob() {
-    window.scrollBy(0, 880) 
+    window.scrollBy(0, 800) 
 }
 
 function meu() {
-    window.scrollBy(0, 1760)    
+    window.scrollBy(0, 1920)    
 }
 
 function cont() {
@@ -21,7 +21,9 @@ function inis() {
 }
 
 function sobs() {
-    window.scrollTo(0, 880) 
+    window.scrollTo(0, 0) 
+    window.scrollBy(0, 800) 
+
 }
 
 function meus() {
