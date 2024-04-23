@@ -5,13 +5,13 @@
     margin: 0px;
 }
 
-
 h3{
     font-family: sans-serif;
     text-align: center;
     font-size: 30px;
     color: var(--color3);
-    padding-top: 6vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 
 :root{
@@ -36,7 +36,7 @@ header{
 
 #identification{
     display: flex;
-    height: 100vh;
+    height: 87vh;
     justify-content: center;
     align-items: center;
 }
@@ -78,37 +78,48 @@ a:hover{
 
 
 /* Estilo da Segunda secção */
-#secs{    color: red;
+#secs{ 
     background-color:var(--color4);
-   
+    overflow: hidden;
+    height: max-content;
 }
 
 #Lado1{
     display: flex;
-    width: 40vw;
-    height: calc(100vh - 10vh);
+    height: calc(100vh - 10vh);  
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+ 
 }
 
 #Lado2{
     display: flex;
-    width: 60vw;
     height: calc(100vh - 10vh);
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 main{
     display: flex;
-    margin: auto;
+    width: 50vw;
+    justify-content: center;
 }
 
 #main1{
-    width: max-content;
-    height: 70%;
+   
+    height: 50%;
   
 }
 
 #main2{
     color: var(--color1);
-    width: 70%;
+    width: 50%;
     height: max-content;
 }
 h4{
@@ -119,6 +130,7 @@ span{
 }
 #tabela{
     margin-top: 35px;
+    margin-left: 100px;
     height: max-content;
 }
 .Dados{
@@ -132,8 +144,9 @@ span{
 /* Estilo da Terceira secção */
 #sect{
     background-color: var(--color0);
-    max-height: max-content;
-    padding-bottom: 8%
+    height: max-content;
+    padding-bottom: 8%;
+ 
 }
 #actividade{
     display: flex;
@@ -144,8 +157,8 @@ span{
 }
 #actividade >div{
     height: max-content;
-    width: 25vw;
-   border: 2px solid #1b1c29c9;
+    width: 20vw;
+    border: 2px solid #1b1c29c9;
     border-radius: 20px;
 }
 #actividade >div:hover{
@@ -181,6 +194,7 @@ footer{
     align-items: center;
     background-color: gray;
     border-radius: 100%;
+    
    
 }
 
