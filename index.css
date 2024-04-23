@@ -175,7 +175,7 @@ footer{
     background-color:var(--color4);
     color: var(--color1);
     justify-content: center;
-    max-height: max-content;
+    height: max-content;
     font-size: x-large;
 }
 

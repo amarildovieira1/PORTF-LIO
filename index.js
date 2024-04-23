@@ -9,7 +9,7 @@ function sob() {
 }
 
 function meu() {
-    window.scrollBy(0, 1920)    
+    window.scrollBy(0, 1790)    
 }
 
 function cont() {
@@ -27,5 +27,5 @@ function sobs() {
 }
 
 function meus() {
-    window.scrollTo(0, 1320)    
+    window.scrollTo(0, 1790)    
 }
